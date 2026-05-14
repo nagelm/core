@@ -1,0 +1,93 @@
+rules:
+  # Bronze
+  action-setup:
+    status: exempt
+    comment: No custom service actions are defined.
+  appropriate-polling: done
+  brands:
+    status: todo
+    comment: Brands PR to home-assistant/brands will be submitted before this integration PR is merged.
+  common-modules: done
+  config-flow: done
+  config-flow-test-coverage: done
+  dependency-transparency: done
+  docs-actions:
+    status: exempt
+    comment: No custom service actions are defined.
+  docs-high-level-description: done
+  docs-installation-instructions: done
+  docs-removal-instructions: done
+  entity-event-setup:
+    status: exempt
+    comment: Integration uses cloud polling; entities do not subscribe to external events.
+  entity-unique-id: done
+  has-entity-name: done
+  runtime-data: done
+  test-before-configure: done
+  test-before-setup: done
+  unique-config-entry: done
+
+  # Silver
+  action-exceptions:
+    status: exempt
+    comment: No custom service actions are defined.
+  config-entry-unloading: done
+  docs-configuration-parameters: done
+  docs-installation-parameters: done
+  entity-unavailable: done
+  integration-owner: done
+  log-when-unavailable: done
+  parallel-updates: done
+  reauthentication-flow:
+    status: exempt
+    comment: No authentication required — uses MetService public web API with no credentials.
+  test-coverage: done
+
+  # Gold
+  devices: done
+  diagnostics: done
+  discovery:
+    status: exempt
+    comment: MetService is a cloud polling service; no network discovery is applicable.
+  discovery-update-info:
+    status: exempt
+    comment: MetService is a cloud polling service; no network discovery is applicable.
+  docs-data-update:
+    status: todo
+    comment: Will be documented on the integration page.
+  docs-examples:
+    status: todo
+    comment: Will be documented on the integration page.
+  docs-known-limitations:
+    status: todo
+    comment: Will be documented on the integration page.
+  docs-supported-devices:
+    status: todo
+    comment: Will be documented on the integration page.
+  docs-supported-functions:
+    status: todo
+    comment: Will be documented on the integration page.
+  docs-troubleshooting:
+    status: todo
+    comment: Will be documented on the integration page.
+  docs-use-cases:
+    status: todo
+    comment: Will be documented on the integration page.
+  dynamic-devices:
+    status: exempt
+    comment: Devices are static — one device is created per config entry (one NZ location).
+  entity-category: done
+  entity-device-class: done
+  entity-disabled-by-default: done
+  entity-translations: done
+  exception-translations:
+    status: exempt
+    comment: No custom service actions are defined; no service exceptions are raised.
+  icon-translations: done
+  reconfiguration-flow: done
+  repair-issues:
+    status: exempt
+    comment: This integration does not create repair issues.
+  stale-devices:
+    status: exempt
+    comment: Devices are tied to config entries and cannot become stale.

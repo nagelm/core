@@ -1085,6 +1085,8 @@ CLAUDE.md @home-assistant/core
 /tests/components/meteoclimatic/ @adrianmo
 /homeassistant/components/metoffice/ @MrHarcombe @avee87
 /tests/components/metoffice/ @MrHarcombe @avee87
+/homeassistant/components/metservice_weather/ @nagelm
+/tests/components/metservice_weather/ @nagelm
 /homeassistant/components/microbees/ @microBeesTech
 /tests/components/microbees/ @microBeesTech
 /homeassistant/components/miele/ @astrandb
