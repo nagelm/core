@@ -13,6 +13,8 @@ MOCK_MARINE_RESPONSE = {
 }
 
 
+
+
 @pytest.fixture
 def mock_coordinator_refresh():
     """Patch coordinator first refresh to avoid real network calls during setup."""

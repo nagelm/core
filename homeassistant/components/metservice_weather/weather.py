@@ -216,4 +216,3 @@ class MetServiceForecastPublic(MetServicePublic):
                 )
             )
         return forecast
-

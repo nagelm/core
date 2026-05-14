@@ -1,7 +1,9 @@
 {
   "domain": "metservice_weather",
   "name": "MetService New Zealand Weather",
-  "codeowners": ["@nagelm"],
+  "codeowners": [
+    "@nagelm"
+  ],
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/metservice_weather",
   "integration_type": "service",

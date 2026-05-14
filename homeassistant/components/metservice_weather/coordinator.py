@@ -515,4 +515,3 @@ class WeatherUpdateCoordinator(DataUpdateCoordinator[MetServicePublicData]):
             for idx, item in enumerate(data):
                 # Pass _depth unchanged — traversing list items is not a URL hop.
                 await self.expand_data_urls(item, parent=data, key=idx, _depth=_depth)
-

@@ -54,5 +54,3 @@ async def async_migrate_entry(hass: HomeAssistant, config_entry: ConfigEntry) ->
     if config_entry.version > 1:
         return False
     return True
-
-

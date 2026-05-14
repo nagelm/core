@@ -500,4 +500,3 @@ current_condition_sensor_descriptions_public = [
         else None,
     ),
 ]
-
